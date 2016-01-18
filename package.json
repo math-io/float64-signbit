@@ -50,7 +50,9 @@
   "bugs": {
     "url": "https://github.com/math-io/signbit/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "math-float64-get-high-word": "git+https://github.com/math-io/float64-get-high-word.git"
+  },
   "devDependencies": {
     "browserify": "12.x.x",
     "codecov": "1.x.x",
