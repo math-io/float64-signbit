@@ -8,14 +8,14 @@ signbit
 ## Installation
 
 ``` bash
-$ npm install math-signbit
+$ npm install math-float64-signbit
 ```
 
 
 ## Usage
 
 ``` javascript
-var signbit = require( 'math-signbit' );
+var signbit = require( 'math-float64-signbit' );
 ```
 
 #### signbit( x )
@@ -40,7 +40,7 @@ bool = signbit( -0 );
 ## Examples
 
 ``` javascript
-var signbit = require( 'math-signbit' );
+var signbit = require( 'math-float64-signbit' );
 
 var sign;
 var x;
@@ -118,23 +118,23 @@ $ make view-browser-tests
 Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/math-signbit.svg
-[npm-url]: https://npmjs.org/package/math-signbit
+[npm-image]: http://img.shields.io/npm/v/math-float64-signbit.svg
+[npm-url]: https://npmjs.org/package/math-float64-signbit
 
-[build-image]: http://img.shields.io/travis/math-io/signbit/master.svg
-[build-url]: https://travis-ci.org/math-io/signbit
+[build-image]: http://img.shields.io/travis/math-io/float64-signbit/master.svg
+[build-url]: https://travis-ci.org/math-io/float64-signbit
 
-[coverage-image]: https://img.shields.io/codecov/c/github/math-io/signbit/master.svg
-[coverage-url]: https://codecov.io/github/math-io/signbit?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/math-io/float64-signbit/master.svg
+[coverage-url]: https://codecov.io/github/math-io/float64-signbit?branch=master
 
-[dependencies-image]: http://img.shields.io/david/math-io/signbit.svg
-[dependencies-url]: https://david-dm.org/math-io/signbit
+[dependencies-image]: http://img.shields.io/david/math-io/float64-signbit.svg
+[dependencies-url]: https://david-dm.org/math-io/float64-signbit
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/math-io/signbit.svg
-[dev-dependencies-url]: https://david-dm.org/dev/math-io/signbit
+[dev-dependencies-image]: http://img.shields.io/david/dev/math-io/float64-signbit.svg
+[dev-dependencies-url]: https://david-dm.org/dev/math-io/float64-signbit
 
-[github-issues-image]: http://img.shields.io/github/issues/math-io/signbit.svg
-[github-issues-url]: https://github.com/math-io/signbit/issues
+[github-issues-image]: http://img.shields.io/github/issues/math-io/float64-signbit.svg
+[github-issues-url]: https://github.com/math-io/float64-signbit/issues
 
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul

@@ -1,5 +1,5 @@
 {
-  "name": "math-signbit",
+  "name": "math-float64-signbit",
   "version": "0.0.0",
   "description": "Returns a boolean indicating if the sign bit for a double-precision floating-point number is on (true) or off (false).",
   "author": {
@@ -23,7 +23,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/math-io/signbit.git"
+    "url": "git://github.com/math-io/float64-signbit.git"
   },
   "keywords": [
     "compute.io",
@@ -48,7 +48,7 @@
     "number"
   ],
   "bugs": {
-    "url": "https://github.com/math-io/signbit/issues"
+    "url": "https://github.com/math-io/float64-signbit/issues"
   },
   "dependencies": {
     "math-float64-get-high-word": "git+https://github.com/math-io/float64-get-high-word.git"
